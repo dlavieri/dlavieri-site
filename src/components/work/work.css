@@ -82,3 +82,22 @@
   font-size: 0.9rem;
   color: white;
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  .work-container {
+    position: absolute;
+    top: 250vh;
+    left: 0;
+    height: 160vh;
+  }
+
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 80%;
+    padding: 10px;
+  }
+
+}

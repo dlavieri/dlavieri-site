@@ -13,6 +13,8 @@ function Header (props) {
       <h2 className="hello-h2">
       I am a front-end developer based in San Francisco.
       </h2>
+      <div> </div>
+      <div></div>
     </div>
   )
 }
