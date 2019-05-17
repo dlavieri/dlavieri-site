@@ -1,6 +1,10 @@
 @@font-face {
   font-family: "Linotte";
-  src: url('./fonts/Linotte-SemiBold.woff');
+  src: url('./fonts/Linotte-SemiBold.woff') format('woff'),
+      url('./fonts/Linotte-SemiBold.woff2') format('woff2'),
+      url('./fonts/Linotte-SemiBold.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @@font-face {

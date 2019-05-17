@@ -4,7 +4,7 @@
   left: 0;
   height: 100vh;
   width: 100%;
-  font-family: 'Linotte';
+  font-family: 'Linotte', 'Nunito', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;

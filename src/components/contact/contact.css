@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(to top, #d2d2d2, #fff, #fff);
-  font-family: 'Linotte', sans-serif;
+  font-family: 'Linotte', 'Nunito', sans-serif;
 }
 
 .contact-box {
