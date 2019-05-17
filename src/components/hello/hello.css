@@ -1,0 +1,24 @@
+
+.header {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  margin-left: 10%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.hello {
+  font-family: 'Pacifico', cursive;
+  color: #ff5a5f;
+  font-size: 8rem;
+  margin-top: -20px;
+  margin-bottom: -30px;
+}
+
+.hello-h2 {
+  font-family: 'Linotte', sans-serif;
+  font-size: 3rem;
+}

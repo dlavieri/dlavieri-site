@@ -1,0 +1,18 @@
+@@font-face {
+  font-family: "Linotte";
+  src: url('./fonts/Linotte-SemiBold.otf');
+}
+
+@@font-face {
+  font-family: "Pacifico";
+  src: url('./fonts/Pacifico-Regular.ttf');
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}

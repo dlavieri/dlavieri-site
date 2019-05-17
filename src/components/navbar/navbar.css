@@ -1,0 +1,51 @@
+.nav-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  line-height: 30px;
+  background-color: white;
+  z-index: 100;
+}
+
+.nav-bar {
+  font-family: "Linotte" sans-serif;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: row;
+  margin: 5px auto;
+  margin-left: 10px;
+}
+
+.about-nav {
+  display: flex;
+}
+
+.menu-item {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 10px;
+  color: black;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.menu-item:hover {
+  color: #ff5a5f;
+}
+
+.contact {
+  display: flex;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+a.nav {
+  color: black;
+  text-decoration: none;
+}
+
+a.nav :hover {
+  color: #ff5a5f;
+  text-decoration: none;
+}
