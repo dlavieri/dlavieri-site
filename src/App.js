@@ -10,11 +10,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <NavBar className="nav-bar-comp"/>
-        <Header className="hello-comp"/>
-        <About className="about-comp"/>
-        <Work className='work-comp' />
-        <Contact className="contact-comp" />
+        <div className="App-view">
+          <NavBar className="nav-bar-comp"/>
+          <Header className="hello-comp"/>
+          <About className="about-comp"/>
+          <Work className='work-comp' />
+          <Contact className="contact-comp" />
+        </div>
       </div>
     );
   }
