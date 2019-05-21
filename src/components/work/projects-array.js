@@ -14,6 +14,6 @@ export const projects = [
     desc: 'A simpled to-do-list app, where users can add tasks, mark them as completed, and see their progress toward completion.',
     tags: ['React.js', 'CSS', 'App'],
     photo: todo,
-    link: '',
+    link: 'https://brave-panini-417780.netlify.com/',
   }
 ];
