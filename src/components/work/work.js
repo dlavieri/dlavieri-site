@@ -14,12 +14,14 @@ function Work (props) {
           name={projects[0].name}
           photo={projects[0].photo}
           desc={projects[0].desc}
-          tags={projects[0].tags} />
+          tags={projects[0].tags}
+          link={projects[0].link} />
         <Project
         name={projects[1].name}
         photo={projects[1].photo}
         desc={projects[1].desc}
-        tags={projects[1].tags}/>
+        tags={projects[1].tags}
+        link={projects[1].link}/>
       </div>
     </div>
   )
