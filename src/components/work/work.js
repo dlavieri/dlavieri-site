@@ -22,6 +22,12 @@ function Work (props) {
         desc={projects[1].desc}
         tags={projects[1].tags}
         link={projects[1].link}/>
+        <Project
+        name={projects[2].name}
+        photo={projects[2].photo}
+        desc={projects[2].desc}
+        tags={projects[2].tags}
+        link={projects[2].link}/>
       </div>
     </div>
   )
