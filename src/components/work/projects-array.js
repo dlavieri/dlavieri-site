@@ -22,6 +22,6 @@ export const projects = [
     desc: 'A real-time weather App, using OpenWeatherMap API',
     tags: ['React.js', 'API', 'App'],
     photo: weather,
-    link: 'hopeful-johnson-739e3e.netlify.com',
+    link: 'https://hopeful-johnson-739e3e.netlify.com',
   }
 ];
