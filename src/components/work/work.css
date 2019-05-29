@@ -25,6 +25,7 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  flex-wrap: wrap;
   width: 80%;
   padding: 10px;
 }
@@ -36,6 +37,7 @@
   flex-direction: column;
   height: 320px;
   width: 300px;
+  min-width: 280px;
   margin: 5px 5px;
   border-radius: 15px;
   background-color: white;
@@ -44,6 +46,7 @@
 
 .proj-photo {
   height: 160px;
+  min-width: 280px;
 }
 .project-photo {
   width: 100%;
