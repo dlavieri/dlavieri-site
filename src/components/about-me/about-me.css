@@ -1,7 +1,5 @@
 .about-me-section {
-  position: absolute;
-  top: 100vh;
-  left: 0;
+  width: 100%;
   display: flex;
   flex-direction: row;
   height: 100vh;
@@ -42,33 +40,13 @@ li {
   margin-bottom: 25px;
 }
 
-.clip {
-  color: #ff5a5f;
-  font-size: 7rem;
-  position:absolute;
-  top: -7%;
-  right: 60%;
-  z-index: 20;
-}
-
-.grey-bg-photo {
-  width: 263px;
-  height: 277px;
-  background-color: #c2c2c2;
-  position: absolute;
-  top: 20px;
-  right: -20px;
-  z-index: -20;
-}
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width : 320px) and (max-width : 480px)  {
   .about-me-section {
-    position: absolute;
-    top: 120vh;
     display: flex;
     flex-direction: column;
-    height: 150vh;
+    height: 100vh;
   }
 
   .about-words {
@@ -78,11 +56,4 @@ li {
     font-family: 'Linotte', 'Nunito', sans-serif;
   }
 
-  .about-pic {
-    height: 50%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    position: relative;
-  }
 }

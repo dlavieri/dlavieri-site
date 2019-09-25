@@ -1,7 +1,5 @@
 .work-container {
-  position: absolute;
-  top: 200vh;
-  left: 0;
+  width: 100%;
   height: 100vh;
   width: 100%;
   font-family: 'Linotte', 'Nunito', sans-serif;
@@ -90,7 +88,6 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width : 320px) and (max-width : 480px) {
   .work-container {
-    position: absolute;
     top: 250vh;
     left: 0;
     height: 240vh;
@@ -98,10 +95,11 @@
 
   .project-container {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 80%;
+    justify-content: flex-start;
+    min-height: content;
+    width: 90%;
     padding: 10px;
+    overflow: auto;
   }
 
 }

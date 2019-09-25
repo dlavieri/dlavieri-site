@@ -10,24 +10,14 @@ function Work (props) {
         <h2 className="work-title">Work.</h2>
       </div>
       <div className="project-container">
-        <Project
-          name={projects[0].name}
-          photo={projects[0].photo}
-          desc={projects[0].desc}
-          tags={projects[0].tags}
-          link={projects[0].link} />
-        <Project
-        name={projects[1].name}
-        photo={projects[1].photo}
-        desc={projects[1].desc}
-        tags={projects[1].tags}
-        link={projects[1].link}/>
-        <Project
-        name={projects[2].name}
-        photo={projects[2].photo}
-        desc={projects[2].desc}
-        tags={projects[2].tags}
-        link={projects[2].link}/>
+      {projects.map(proj => {
+        return <Project
+          name={proj.name}
+          photo={proj.photo}
+          desc={proj.desc}
+          tags={proj.tags}
+          link={proj.link} />
+      })}
       </div>
     </div>
   )

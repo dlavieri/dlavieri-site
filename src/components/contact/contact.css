@@ -1,7 +1,4 @@
 .contact-container {
-  position: absolute;
-  top: 300vh;
-  left: 0;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -76,9 +73,6 @@ a.social-link :hover {
 
 @media only screen and (min-width : 320px) and (max-width : 480px) {
   .contact-container {
-    position: absolute;
-    top: 410vh;
-    left: 0;
     width: 100%;
     height: 100vh;
   }

@@ -1,6 +1,8 @@
 import pokeshop from '../../PokeShop.png';
 import todo from '../../ToDoList.png';
 import weather from '../../WeatherApp.png';
+import calendar from '../../Calendar.png';
+import squish from '../../SquishApp.png';
 
 export const projects = [
   {
@@ -23,5 +25,19 @@ export const projects = [
     tags: ['React.js', 'API', 'App'],
     photo: weather,
     link: 'https://hopeful-johnson-739e3e.netlify.com',
-  }
+  },
+  {
+    name: 'Squish App, prototype',
+    desc: 'A web prototype of iOS application for connecting students to mental health professionals',
+    tags: ['React.js', 'Chat', 'Sort', 'Filter', 'Social'],
+    photo: squish,
+    link: 'https://distracted-turing-868918.netlify.com',
+  },
+  {
+    name: 'Responsive Calendar',
+    desc: 'A responsive calendar, with month and year jump functions',
+    tags: ['React.js', 'CSS', 'Responsive'],
+    photo: calendar,
+    link: 'https://distracted-turing-868918.netlify.com',
+  },
 ];

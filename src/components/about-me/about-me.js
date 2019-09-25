@@ -20,14 +20,6 @@ function About (props) {
         <li>I love cats.</li>
       </ul>
     </div>
-    <div className="about-pic">
-      <div className="pic-container">
-        <i className="fas fa-paperclip clip"></i>
-        <img src={biopic} />
-        <div className="grey-bg-photo">
-        </div>
-      </div>
-    </div>
     </div>
   )
 }
