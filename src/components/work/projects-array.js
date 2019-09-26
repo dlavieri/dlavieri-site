@@ -31,7 +31,7 @@ export const projects = [
     desc: 'A web prototype of iOS application for connecting students to mental health professionals',
     tags: ['React.js', 'Chat', 'Sort', 'Filter', 'Social'],
     photo: squish,
-    link: 'https://distracted-turing-868918.netlify.com',
+    link: 'https://blissful-rosalind-e62377.netlify.com/',
   },
   {
     name: 'Responsive Calendar',
